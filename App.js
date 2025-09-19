@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import ColorChanger from './activity5/ColorChanger';
-import CounterApp from './activity5/CounterApp';
+import Messenger from './MidAct1/Messenger';
+import CommentSection from './MidAct1/CommentSection';
 
 export default function App() {
   return (
     <>
-      <CounterApp />
-      <ColorChanger />
+      <Messenger />
+      <CommentSection />
     </>
   );
 }
